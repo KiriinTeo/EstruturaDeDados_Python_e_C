@@ -16,7 +16,7 @@ int main() {
     while (1) {
         int escolha;
 
-        printf("\n\nBem-vindo! Esta é uma lista unindo estruturas de dados relevantes revisados em 2024.\n");
+        printf("\n\nBem-vindo! Esta é uma lista unindo estruturas de dados relevantes revisados em 2024 (não todas, até 01/07/2024).\n");
         printf("Funções disponíveis:\n");
         printf("1. Definição de Triângulos\n");
         printf("2. Cálculo de Fatorial\n");
