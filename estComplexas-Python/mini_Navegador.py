@@ -3,8 +3,7 @@ class Navegar:
         self.acoes = []  # Pilha
         self.redo_stack = []  # Pilha de ações desfeitas (para refazer).
 
-    def adicionar_acao(self, acao):
-        # Adiciona uma nova ação à pilha de ações e limpa a pilha de refazer.
+    def adicionar_acao(self, acao):  # Adiciona uma nova ação à pilha de ações e limpa a pilha de refazer.
         self.acoes.append(acao)
         self.redo_stack.clear() 
         print(f'Pesquisa registrada: "{acao}"')  
