@@ -130,7 +130,7 @@ int main() {
             }
 
             case 5: {
-                int votoNulo = 0, votoWant = 0, votoPaf = 0, votoHerme = 0, votoBranco = 0;
+            int votoNulo = 0, votoWant = 0, votoPaf = 0, votoHerme = 0, votoBranco = 0;
             int alunos;
             char rep;
             float porcNulo, porcBranco, porcWant, porcPaf, porcHerme;
@@ -347,7 +347,7 @@ int main() {
                 scanf("%d", &vezes);
 
                 struct Carro* carros = (struct Carro*)malloc(vezes * sizeof(struct Carro));
-                getchar(); // Limpar buffer
+                getchar(); // Limpar buffer do teclado
 
                 for (cont = 0; cont < vezes; cont++) {
                     printf("\nDigite a marca do carro: ");
