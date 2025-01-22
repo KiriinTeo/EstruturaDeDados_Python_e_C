@@ -4,7 +4,7 @@ class No:
         self.proximo = None
 
 class listaEncadeada:          # Inicializa a lista com uma inicial "cabeça" vazia.
-    def __inti__(self):
+    def __init__(self):
         self.cabeca = None
 
     def adicionar_no_inicio(self, valor): # Adiciona um valor novo e define ele como "cabeça".
@@ -51,17 +51,17 @@ class listaEncadeada:          # Inicializa a lista com uma inicial "cabeça" va
             
         return f"Elemento {valor} não encontrado."
     
-    def percorrer_lista(self):             # Percorre e imprime a lista.
+    def percorer_lista(self):             # Percorre e imprime a lista.
         atual = self.cabeca
         while atual:
             print(atual.valor, end = ' -> ')
             atual = atual.proximo
         print("None")
     
-        lista = listaEncadeada()
-        lista.adicionar_no_inicio(5)
-        lista.adicionar_no_inicio(3)
-        lista.adicionar_no_fim(7)
+lista = listaEncadeada()
+lista.adicionar_no_inicio(5)
+lista.adicionar_no_inicio(3)
+lista.adicionar_no_fim(7)
         
 print("Lista Completa:")
 listaEncadeada.percorer_lista()
@@ -70,4 +70,4 @@ print(listaEncadeada.buscar(7))
         
 listaEncadeada.remover(3)
 print("Lista completa após remoção:")
-listaEncadeada.percorrer_lista()
+listaEncadeada.percorer_lista()
